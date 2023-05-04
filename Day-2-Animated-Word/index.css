@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #aed181;
+}
+.word{
+    width: fit-content;
+    color: #8a889e;
+    font-family: "Albert Sans", sans-serif;
+    font-size: min(10rem, 15vw);
+    display: flex;
+}
+.letter{
+    display: block;
+    height: min(10rem, 15vw);
+    width: min(9rem, 13vw);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.letter--swapped{
+    font-size: 60%;
+    transform: translate(12%);
+}
